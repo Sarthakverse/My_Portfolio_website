@@ -8,32 +8,32 @@
 
 body{
     font-family:'poppins',sans-serif;
-    /* background-image:; */
-    color:rgb(17, 255, 0);
-}
-.top-banner{
-    display:flex;
-    font-family: cursive;
-    justify-content: center; /*will center the content horizontally*/
-    align-items:center; /*will center the content vertically*/
-    background-image: url(images/asset\ 32.png);
-    background-size: 400px;
-    padding:10px;
-    font-size: 20px;
+    background-color: rgb(159, 244, 159);
+    color:black;
+    background-image: url(images/gray-abstract-wireframe-technology-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    
+    
 }
 
+/*navigation section*/
+
+.navigation{
+    height:5vh;
+    margin-top:10vh;
+ 
+ }
 
 .portfolio-logo{
     display:flex;
     width:auto;
-    height:20vh;
+    height:25vh;
     margin-left: 80px;
 }
 
-.navigation{
-   height:5vh;
 
-}
 
 nav{
     display:flex;
@@ -60,5 +60,12 @@ nav{
 li:hover{
     text-decoration: underline;
     color:crimson;
+}
+
+/*hero section*/
+
+.hero-section{
+    margin-top:10vh;
+    margin-left:10vw;
 }
 
