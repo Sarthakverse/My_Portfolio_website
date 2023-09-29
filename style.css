@@ -1,23 +1,82 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
-.conatiner{
+.container{
     display:flex;
 }
 
 .sidebar{
-    background-color: red;
+    background-color: rgb(161, 158, 158);
+    font-family: 'Open Sans', sans-serif;
+    width: 10vw;
+    height:120vh;
+    
 }
 
+.sidebar nav{
+    padding: 15px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;;
+    padding: 44px 0;
+}
 .main{
     background-color: yellow;
+    width:90vw;
+    height:120vh;
 
 }
+
+.infoContainer{
+    background-color: rgb(255, 0, 174);
+    margin: 147px auto;
+    height: 78vh;
+    width:80vw;
+    display:flex;
+    justify-content:space-around;
+}
+
+.developers-pic img{
+    height: 78vh;
+}
+
+.developers-info{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size:65px;
+}
+
+.name{
+    font-size:50px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.about{
+    font-size:35px;
+}
+
+.buttons button{
+
+}
+
+
+
+
+
 
 
