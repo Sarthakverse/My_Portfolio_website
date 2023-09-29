@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'poppins',sans-serif;
+    /* background-image:; */
+    color:rgb(17, 255, 0);
+}
+.top-banner{
+    display:flex;
+    font-family: cursive;
+    justify-content: center; /*will center the content horizontally*/
+    align-items:center; /*will center the content vertically*/
+    background-image: url(images/asset\ 32.png);
+    background-size: 400px;
+    padding:10px;
+    font-size: 20px;
+}
+
+
+.portfolio-logo{
+    display:flex;
+    width:auto;
+    height:20vh;
+    margin-left: 80px;
+}
+
+.navigation{
+   height:5vh;
+
+}
+
+nav{
+    display:flex;
+    align-items:center; /*vertically center the logo and links*/
+    justify-content:space-between; /*push logo to the left and links to the right*/
+}
+
+.navigation-links ul{
+    list-style:none; /*you will not see underline under links*/
+    display:flex;
+    margin-right: 5vw;
+    font-size: 1.5em;
+    font-family:'poppins',sans-serif;
+}
+
+.navigation-links li{
+    margin-right:20px;
+}
+
+.box{
+    transition: 0.3s ;
+}
+
+li:hover{
+    text-decoration: underline;
+    color:crimson;
+}
+
