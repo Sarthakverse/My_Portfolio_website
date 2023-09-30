@@ -3,51 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="images/portfolioIcon.png">
-
 </head>
 <body>
-    
-   <div class="container">
-    
-    <div class="sidebar">
-       
-    <nav>
-        <ul>
-            <li><a href="/Home.html">Home </a></li>
-            <li><a href="/Skills.html">Skills</a></li>
-            <li><a href="/Projects.html">Projects</a></li>
-            <li><a href="/Contact.html">Contact</a></li>
-            <li><a href="/Resume.html">Resume</a></li>
-        </ul>
-    </nav>
-    </div>
-   
-    <div class="main">
-      <div class="infoContainer">
-        <div class="developers-info"> 
-          <div class="hello">Hi i am </div>
-          <div class="name">Sarthak Rastogi</div>
-          <div class="about">Develeoper, singer, competetive programmer</div>
-          <div class="moreAbout">i am a passionate and hardworking individual, i love SDC SI more than my college 😂😂</div>
-          <div class="buttons">
-            <a href="/Resume.txt"><button>Download Resume</button></a>
-            <button class="A">Contact me</button>
-          </div>
- 
+    <div class="main-outer-conatiner">
+        <!-----Header section-------->
+        <div class="navigation-bar">
+            <div class="My-logo">
+               <img src="images/S-removebg-preview.png" alt="Logo-here"> 
+            </div>
+            <div class="navigation-links">
+                <ul class="list-items">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#sKills">Skills</a></li>
+                    <li><a href="#ProjectS">Projects</a></li>
+                    <li><a href="#Contactt">Contact</a></li>
+                    <li><a href="Black White Minimalist CV Resume.pdf">Resume</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="developers-pic">
-          <img src="images/myImage.png" alt="myImage">
-        </div>22
-      </div>
+        
+        <!-----my hero section------->
+    <div id="hero" class="container-hero">
+            <div class="hero-section">
+                <div class="first-text">
+                    <h3>Hello Guys !!</h3>
+               </div>
+        
+               <div class="second-text">
+                <h3 class="makeitinline">I'm......</h3>
+                <span><strong class="my-name">Sarthak Rastogi</strong></span>
+               </div>
+        
+               <div class="third-text">
+                <h2>Aiming to be a Full stack developer</h2>
+                <h2>I Love to code ❤️</h2>
+                <h3>Currently mastering <span class="HTCJ">html || css || javascript</span></h3>
+              </div>
+        
+              <div class="fourth-text">
+                <h3 class="myquote">"I believe in KARMA and love to take dares, i love to connect with like minded individuals"</h3>
+              </div>
+        
+              <div class="fifth-text">
+                <h3>i am Open to new Opportunities!</h3>
+                <h4>rsarthakverse123@gmail.com</h4>
+              </div>
+               </div>
+
+               <div class="image-div">
+                <div class="image">
+                    <img src="images/myImage.png">
+                </div>
+               </div>
+
+
     </div>
-  
-</div>
-   
-         
-   
-   
+              
+        </div>
+      
+        <!-- skills section -->
+
+        <div id="sKills" class="container-skills">
+           <h1>SKILLS</h1>
+
+           <div class="sub-container-skill">
+               <div class="language">
+                <h1>Lang I know</h1>
+                <h2>Java</h2>
+                <h2>C Programming</h2>
+                <h2>Html</h2>
+                <h2>css</h2>
+
+            </div>
+               
+            <div class="tools">
+                <div class="Toools">
+                    <h1>Tools</h1>
+                    <h2>GIT</h2>
+                    <h2>GITHUB</h2>
+                    <h2>MS-OFFICE</h2>
+               </div>
+
+            </div>   
+
+               <div class="otherSkills">
+                <div class="OTHER">
+                    <h1>Co-curricular</h1>
+                    <h2>Singing</h2>
+                    <h2>Footbal</h2>
+                    <h2 >Communication</h2>
+                </div>
+               </div>
+           </div>
+        </div>
+
+
+
+        <!--projects section-->
+        
+        <div id="ProjectS"class="container-projects">
+            <h1><strong>PROJECTS</strong></h1>
+            <div class="movieapp">
+                <div class="movie">
+                 <h1 style="color: red;">Popular Movies App</h1>
+                 <p>Description:</p>
+                 <p>
+                     <br>Android Movie App This Android Movie App project allows users to browse<br> and discover popular and top-rated movies.<br> It leverages the TMDb API to fetch movie data and displays it in a user-friendly interface.
+                 </p>
+                </div>
+                <div class="movieimage">
+                    <img src="https://user-images.githubusercontent.com/117356021/265881779-7cd203ab-9379-43d8-9730-d2e9e2bb04dc.png" alt="movie app image">
+                </div>
+
+                <div class="link">
+                    <a href="https://github.com/Sarthakverse/Popular_Movies_App" alt="project 1 link">PROJECT-1</a>
+                </div>
+
+
+            </div>
+
+            <div class="github">
+                <div class="appgithub">
+                    <h1 style="color:red">GitHub API app</h1>
+                    <p>Description:</p>
+                    <p>
+                        <br> My API App This is an Android app that allows the user to search for GitHub<br> repositories using the GitHub API. The app displays the ID,<br> name, and description of the repositories that match the search term <br>.Fetching data from the server and presenting in JSON format using API.
+                        
+                    </p>
+
+                </div>
+                <div class="githubimage">
+                    <img src="https://user-images.githubusercontent.com/117356021/270090498-49466ffc-f8ee-4691-acc4-9cce21fa6bb8.png" alt="github api app">
+                </div>
+
+                <div class="link">
+                    <a href="https://github.com/Sarthakverse/API_demo_App" alt="project 1 link">PROJECT-2</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div id="Contactt"class="container-contact">
+            <h1>Contact me</h1>
+            <div class="sub-contact-container">
+                <div class="name">
+                    <label for="NAME">Name:</label>
+                    <input type="text"  id="NAME" >
+                </div>
+                <div class="subject">
+                    <label for="sub">Subject:</label>
+                    <input type="text"  id="sub">
+                </div>
+                <div class="entermessage">
+                    <label for="Msg">Msg Here:</label>
+                    <input type="text" id="Msg">
+                </div>
+                <div class="button">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
 </body>
 </html>
