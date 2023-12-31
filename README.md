@@ -4,3 +4,4 @@
 ### Clone: git clone https://github.com/Sarthakverse/My_Portfolio_website.git
 ### Open index.html.
 ### Showcase your skills with this sleek design. Happy coding! 💻🚀
+## ‼️‼️ NOTE THAT WEBSITE IS NOT RESPONSIVE
